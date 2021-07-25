@@ -1,36 +1,13 @@
 export const chainConfig = {
-  // network: 'morpheus-13001',
-  icon: 'https://gist.githubusercontent.com/kwunyeung/8be4598c77c61e497dfc7220a678b3ee/raw/desmos.svg?sanitize=true',
-  base: 'udaric',
-  display: 'daric',
+  network: 'althea-testnet2v3',
+  icon: 'https://raw.githubusercontent.com/althea-net/althea-site/gh-pages/images/48.png',
+  base: 'ualtg',
+  display: 'ALTG',
   denomUnits: [
     {
-      denom: 'udaric',
-      exponent: 0,
-      aliases: ['microdaric'],
-    },
-    {
-      denom: 'mdaric',
-      exponent: 3,
-      aliases: ['millidaric'],
-    },
-    {
-      denom: 'daric',
+      denom: 'ualtg',
       exponent: 6,
-    },
-    {
-      denom: 'upotic',
-      exponent: 0,
-      aliases: ['microdaric'],
-    },
-    {
-      denom: 'mpotic',
-      exponent: 3,
-      aliases: ['millipotic'],
-    },
-    {
-      denom: 'potic',
-      exponent: 6,
+      aliases: ['ALTG'],
     },
   ],
 };
